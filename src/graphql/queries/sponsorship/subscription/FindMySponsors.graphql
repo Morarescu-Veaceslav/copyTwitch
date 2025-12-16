@@ -1,0 +1,12 @@
+query FindMySponsors{
+  findMySponsors{
+    expiresAt
+    user{
+      username
+      isVerified
+    }
+    plan{
+        title
+    }
+  }
+}

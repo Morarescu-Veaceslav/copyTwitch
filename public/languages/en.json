@@ -1,0 +1,633 @@
+{
+    "layout": {
+        "header": {
+            "logo": {
+                "platform": "Platform"
+            },
+            "headerMenu": {
+                "login": "Login",
+                "register": "Register",
+                "profileMenu": {
+                    "notification": {
+                        "heading": "Notifications",
+                        "loading": "Loading notifications...",
+                        "empty": "No notifications"
+                    },
+                    "successMessage": "You have logged out successfully",
+                    "errorMessage": "Logout error",
+                    "channel": "My Channel",
+                    "dashboard": "Dashboard",
+                    "logout": "Logout"
+                }
+            },
+            "search": {
+                "placeholder": "Search..."
+            }
+        },
+        "sidebar": {
+            "header": {
+                "expand": "Expand",
+                "collapse": "Collapse",
+                "navigation": "Navigation"
+            },
+            "userNav": {
+                "home": "Home",
+                "categories": "Categories",
+                "streams": "Streams",
+                "recommended": "Recommended"
+            },
+            "recommended": {
+                "heading": "Recommended Streams"
+            },
+            "dashboardNav": {
+                "settings": "Settings",
+                "streamSettings": "Stream Settings",
+                "keys": "Keys",
+                "chatSettings": "Chat Settings",
+                "followers": "Followers",
+                "sponsors": "Sponsors",
+                "premium": "Premium",
+                "transactions": "Transactions"
+            }
+        }
+    },
+    "home": {
+        "streamsHeading": "Live streams you might enjoy",
+        "categoriesHeading": "Categories tailored to your interests"
+    },
+    "categories": {
+        "heading": "Categories",
+        "overview": {
+            "heading": "Streams for this category"
+        }
+    },
+    "streams": {
+        "heading": "Streams",
+        "searchHeading": "Search by query"
+    },
+    "stream": {
+        "video": {
+            "offline": "The stream is offline",
+            "loading": "Loading stream...",
+            "player": {
+                "volume": "Volume",
+                "fullscreen": {
+                    "open": "Enter fullscreen",
+                    "exit": "Exit fullscreen"
+                }
+            }
+        },
+        "info": {
+            "viewers": "viewers",
+            "offline": "Offline"
+        },
+        "actions": {
+            "follow": {
+                "confirmUnfollowHeading": "Unfollow channel?",
+                "confirmUnfollowMessage": "Are you sure you want to unfollow this channel?",
+                "unfollowButton": "Unfollow",
+                "followButton": "Follow",
+                "successFollowMessage": "You are now following this channel",
+                "FOLLOW_ERROR": "Failed to follow channel",
+                "successUnfollowMessage": "You unfollowed this channel",
+                "UNFOLLOW_ERROR": "Failed to unfollow channel"
+            },
+            "suport": {
+                "alreadySponsor": "You are already a sponsor",
+                "supportAuthor": "Support the creator",
+                "perMonth": "per month",
+                "choose": "Choose",
+                "MAKE_PAYMENT_ERROR": "Something went wrong"
+            },
+            "share": {
+                "heading": "Share"
+            }
+        },
+        "aboutChannel": {
+            "heading": "About the channel",
+            "followersCount": "followers",
+            "noDescription": "No channel description"
+        },
+        "sponsors": {
+            "heading": "Sponsors"
+        },
+        "chat": {
+            "heading": "Chat",
+            "unavailable": "Chat unavailable",
+            "unavailableMessage": "Chat is not available for this stream",
+            "loading": "Loading chat...",
+            "info": {
+                "authRequired": "You need to sign in to chat",
+                "chatDisabled": "Chat is disabled",
+                "premiumFollowersOnly": "Only premium followers can chat",
+                "followersOnly": "Only followers can chat"
+            },
+            "sendMessage": {
+                "placeholder": "Type a message...",
+                "emojiPlaceholder": "Add emoji",
+                "errorMessage": "Failed to send message"
+            }
+        },
+        "settings": {
+            "heading": "Stream Settings",
+            "thumbnail": {
+                "updateButton": "Update Thumbnail",
+                "confirmModal": {
+                    "heading": "Confirm Thumbnail Update",
+                    "message": "Are you sure you want to update the thumbnail?"
+                },
+                "info": "A clear, engaging thumbnail helps get more viewers. Supported formats: JPG, JPEG, PNG, GIF. Maximum size: 10 MB.",
+                "successUpdateMessage": "Thumbnail updated successfully.",
+                "errorUpdateMessage": "Failed to update thumbnail.",
+                "successRemoveMessage": "Thumbnail removed successfully.",
+                "errorRemoveMessage": "Failed to remove thumbnail."
+            },
+            "info": {
+                "titleLabel": "Stream Title",
+                "titlePlaceholder": "Enter the title of your stream",
+                "titleDescription": "Choose a title that describes your stream and attracts viewers.",
+                "categoryLabel": "Category",
+                "categoryPlaceholder": "Select a category",
+                "categoryDescription": "Picking the right category helps viewers find your stream.",
+                "submitButton": "Save Changes",
+                "successMessage": "Stream information updated.",
+                "errorMessage": "Couldn't update stream information."
+            }
+        }
+    },
+    "success": {
+        "heading": "Payment Successful",
+        "details": {
+            "heading": "Subscription Details",
+            "price": "Price:",
+            "duration": "Duration:",
+            "channel": "Channel:"
+        },
+        "congratulations": "Congratulations! Your support has been activated.",
+        "backToHome": "Back to Home",
+        "backToChannel": "Return to Channel",
+        "support": "Thank you for supporting the creator!"
+    },
+    "notFound": {
+        "description": "The page you are looking for does not exist or has been moved.",
+        "backToHome": "Back to Home"
+    },
+    "auth": {
+        "register": {
+            "heading": "Create your account",
+            "backButtonLabel": "Have an account? Log in",
+            "userNameLabel": "Username",
+            "userNameDescription": "Choose a unique username. Letters, numbers, and hyphens only.",
+            "emailLabel": "Email",
+            "emailDescription": "Enter a valid email address.",
+            "passwordLabel": "Password",
+            "passwordDescription": "Must be at least 8 characters long.",
+            "submitButton": "Register",
+            "successAlertTite": "Registration Successful!",
+            "homeButton": "Home",
+            "successAlertDescription": "Your account has been created successfully. A confirmation email has been sent to your inbox. You can now log in after confirming your email.",
+            "USERNAME_ALREADY_EXIST": "Failed to register user. Please check your information and try again.",
+            "EMAIL_ALREADY_EXIST": "emaill exista "
+        },
+        "verify": {
+            "heading": "Account verification",
+            "successMessage": "Your email has been verified successfully!",
+            "TOKEN_IS_NOT_ASSOCIADET": "Verification failed. The link may be invalid or expired."
+        },
+        "login": {
+            "heading": "Log in to your account",
+            "backButtonLabel": "Don't have an account? Sign up",
+            "pinLabel": "PIN",
+            "pinDescription": "Enter your personal identification number",
+            "loginLabel": "Username or Email",
+            "loginDescription": "Enter your username or email address",
+            "passwordLabel": "Password",
+            "passwordDescription": "Enter your password",
+            "forgotPassword": "Forgot your password?",
+            "submitButton": "Log In",
+            "homeButton": "Home",
+            "successMessage": "You have logged in successfully!",
+            "LOGIN_ERROR": "Failed to log in. Please check your credentials."
+        },
+        "resetPassword": {
+            "heading": "Reset your password",
+            "backButtonLabel": "Back to login",
+            "emailLabel": "Email",
+            "emailDescription": "Enter the email associated with your account.",
+            "submitButton": "Send reset link",
+            "successAlertTite": "Email sent!",
+            "successAlertDescription": "A password reset link has been sent to your email address. Please check your inbox.",
+            "RESET_PASSWORD_ERROR": "Failed to send reset email. Please try again."
+        },
+        "newPassword": {
+            "heading": "Reset Your Password",
+            "backButtonLabel": "Back to login",
+            "passwordLabel": "New Password",
+            "passwordDescription": "Enter a strong password (at least 8 characters).",
+            "passwordRepeatLabel": "Confirm Password",
+            "passwordRepeatDescription": "Re-enter your password to confirm.",
+            "submitButton": "Reset Password",
+            "successMessage": "Your password has been reset successfully!",
+            "NEW_PASSWORD_ERROR": "Failed to reset password. Please try again."
+        },
+        "deactivate": {
+            "heading": "Deactivate Account",
+            "backButtonLabel": "Back",
+            "pinLabel": "Security PIN",
+            "pinDescription": "Enter your security PIN to confirm deactivation.",
+            "emailLabel": "Email Address",
+            "emailDescription": "Enter your email to confirm your identity.",
+            "passwordLabel": "Password",
+            "passwordDescription": "Enter your password to confirm account deactivation.",
+            "submitButton": "Deactivate Account",
+            "successMessage": "Your account has been successfully deactivated.",
+            "DEACTIVATE_ACCOUNT_ERROR": "Failed to deactivate your account. Please check your credentials and try again."
+        }
+    },
+    "dashboard": {
+        "settings": {
+            "header": {
+                "heading": "Settings",
+                "description": "General settings for your account",
+                "profile": "Profile",
+                "account": "Account",
+                "appearance": "Appearance",
+                "notification": "Notifications",
+                "sessions": "Sessions"
+            },
+            "profile": {
+                "header": {
+                    "heading": "Profile Settings",
+                    "description": "Manage your personal information and profile preferences."
+                },
+                "avatar": {
+                    "heading": "Profile Avatar",
+                    "updateButton": "Update Avatar",
+                    "confirmModal": {
+                        "heading": "Are you sure?",
+                        "message": "Do you want to remove your current avatar?"
+                    },
+                    "info": "Upload a clear image. Supported formats: JPG, JPEG, PNG, WebP or GIF. Max size: 10 MB",
+                    "successUpdateMessage": "Your avatar has been successfully updated.",
+                    "errorUpdateMessage": "Failed to update the avatar. Please try again.",
+                    "successRemoveMessage": "Your avatar has been successfully removed.",
+                    "errorRemoveMessage": "Failed to remove the avatar. Please try again."
+                },
+                "info": {
+                    "heading": "Edit Profile",
+                    "userNameLabel": "Username",
+                    "usernamePlaceholder": "Enter your username",
+                    "usernameDescription": "Your unique username used across the platform.",
+                    "displayNameLabel": "Display Name",
+                    "displayNamePlaceholder": "Enter your display name",
+                    "displayNameDescription": "This name will be shown publicly on your profile.",
+                    "bioLabel": "Bio",
+                    "bioPlaceholder": "Tell something about yourself...",
+                    "bioDescription": "A short description that appears on your profile.",
+                    "submitButton": "Save Changes",
+                    "successMessage": "Your profile has been updated successfully.",
+                    "errorMessage": "An error occurred while updating your profile."
+                },
+                "socialLinks": {
+                    "createForm": {
+                        "heading": "Social Links",
+                        "titleLabel": "Title",
+                        "titlePlaceholder": "Platform name (e.g. Twitter, YouTube)",
+                        "titleDescription": "Enter the name of the platform you want to add.",
+                        "urlLabel": "URL",
+                        "urlPlaceholder": "https://example.com/your-profile",
+                        "urlDescription": "Paste the full link to your profile.",
+                        "submitButton": "Add Link",
+                        "successMessage": "Social link added successfully!",
+                        "errorMessage": "Failed to add social link. Please try again."
+                    },
+                    "editForm": {
+                        "cancelButton": "Cancel",
+                        "submitButton": "Save Changes",
+                        "titlePlaceholder": "Platform name",
+                        "urlPlaceholder": "Profile URL",
+                        "successUpdateMessage": "Social link updated successfully!",
+                        "errorUpdateMessage": "Failed to update social link. Please try again.",
+                        "successRemoveMessage": "Social link removed successfully!",
+                        "errorRemoveMessage": "Failed to remove social link. Please try again."
+                    },
+                    "successReorderMessage": "Your social links have been reordered.",
+                    "errorReorderMessage": "Could not reorder social links. Please try again."
+                }
+            },
+            "account": {
+                "header": {
+                    "heading": "Account Settings",
+                    "description": "Manage your account information and preferences.",
+                    "securityHeading": "Security",
+                    "securityDescription": "Update your password, enable two-factor authentication, and protect your account.",
+                    "deactivationHeading": "Deactivate Account",
+                    "deactivationDescription": "Temporarily disable your account and hide your profile."
+                },
+                "email": {
+                    "heading": "Change Email",
+                    "emailLabel": "Email Address",
+                    "emailDescription": "Enter your new email address.",
+                    "submitButton": "Update Email",
+                    "successMessage": "Your email has been updated successfully.",
+                    "EMAIL_ALREADY_EXIST": "Failed to update your email."
+                },
+                "password": {
+                    "heading": "Change Password",
+                    "oldPasswordLabel": "Current Password",
+                    "oldPasswordDescription": "Enter your existing password.",
+                    "newPasswordLabel": "New Password",
+                    "oldPasswordPlaceholder": "Enter your current password",
+                    "newPasswordPlaceholder": "Enter your new password",
+                    "newPasswordDescription": "Enter a strong, unique password.",
+                    "submitButton": "Update Password",
+                    "successMessage": "Your password has been updated successfully.",
+                    "errorMessage": "Failed to update your password."
+                },
+                "twoFactor": {
+                    "heading": "Two-Factor Authentication",
+                    "description": "Add an extra layer of security to your account.",
+                    "enable": {
+                        "trigger": "Enable",
+                        "heading": "Enable Two-Factor Authentication",
+                        "qrInstruction": "Scan this QR code with your authenticator app.",
+                        "secretCodeLabel": "Secret Code:",
+                        "pinLabel": "Verification Code",
+                        "pinDescription": "Enter the 6-digit code from your authenticator app.",
+                        "submitButton": "Activate",
+                        "successMessage": "Two-factor authentication has been enabled successfully.",
+                        "errorMessage": "The verification code is incorrect."
+                    },
+                    "disabled": {
+                        "trigger": "Disable",
+                        "heading": "Disable Two-Factor Authentication",
+                        "message": "Are you sure you want to disable two-factor authentication?",
+                        "successMessage": "Two-factor authentication has been disabled successfully.",
+                        "errorMessage": "Failed to disable two-factor authentication."
+                    }
+                },
+                "deactivation": {
+                    "heading": "Deactivate Account",
+                    "description": "You can temporarily deactivate your account. Your profile will be hidden until you reactivate it.",
+                    "confirmModal": {
+                        "heading": "Confirm Deactivation",
+                        "message": "Are you sure you want to deactivate your account? You will be able to restore it within the next 7 days. After this period, your account will be permanently deleted."
+                    },
+                    "button": "Deactivate Account"
+                }
+            },
+            "appearance": {
+                "header": {
+                    "heading": "Appearance Settings",
+                    "description": "Customize how your profile and dashboard look."
+                },
+                "theme": {
+                    "heading": "Theme",
+                    "description": "Choose your preferred theme mode.",
+                    "successMessage": "Theme updated successfully!"
+                },
+                "language": {
+                    "heading": "Language",
+                    "description": "Select your preferred language for the interface.",
+                    "selectPlaceholder": "Choose a language",
+                    "successMessage": "Language updated successfully!"
+                },
+                "color": {
+                    "heading": "Accent Color",
+                    "description": "Select the accent color for your page."
+                }
+            },
+            "notifications": {
+                "header": {
+                    "heading": "Notifications",
+                    "description": "Manage how you receive alerts and updates from the platform."
+                },
+                "siteNotifications": {
+                    "heading": "Site Notifications",
+                    "description": "Receive alerts directly on the website when you gain a new sponsor, get new followers, or when other important activity happens on your channel."
+                },
+                "telegramNotifications": {
+                    "heading": "Telegram Notifications",
+                    "description": "Enable instant Telegram alerts for new sponsors, followers, and other important channel updates — delivered straight to your chat."
+                },
+                "successMessage": "Your notification settings have been successfully updated.",
+                "errorMessage": "An error occurred while saving your settings. Please try again."
+            },
+            "sessions": {
+                "header": {
+                    "heading": "Account Sessions",
+                    "description": "Manage your active sessions across all devices and locations."
+                },
+                "info": {
+                    "current": "This is your current session.",
+                    "active": "Active sessions on other devices",
+                    "notFound": "No active sessions found."
+                },
+                "sessionItem": {
+                    "deleteButton": "Delete",
+                    "detailsButton": "Details",
+                    "confirmModal": {
+                        "heading": "Confirm Logout",
+                        "message": "Are you sure you want to end this session? This action will completely delete the session, and all activities on this device will be terminated."
+                    },
+                    "successMessage": "The session has been successfully terminated.",
+                    "errorMessage": "An error occurred while logging out. Please try again."
+                },
+                "sessionModal": {
+                    "heading": "Session Details",
+                    "device": "Device:",
+                    "location": "Location:",
+                    "ipAddress": "IP Address:",
+                    "createdAt": "Created At:"
+                }
+            }
+        },
+        "keys": {
+            "header": {
+                "heading": "Stream Keys",
+                "description": "Manage and generate stream keys for connecting OBS or other broadcasting software to your channel."
+            },
+            "url": {
+                "heading": "URL"
+            },
+            "key": {
+                "heading": "Key"
+            },
+            "instructionModal": {
+                "trigger": "How to Connect OBS",
+                "heading": "Step-by-Step Guide to Connecting OBS",
+                "description": "Follow this detailed guide to create your stream key, configure OBS properly, and start broadcasting on our platform.",
+                "step1Title": "Step 1 — Generate Your Stream Key",
+                "step1Description": "To connect OBS, you must first create a stream key. This key links OBS to your channel and authorizes streaming.",
+                "downloadObs": "Download OBS",
+                "downloadObsSescription": "If OBS is not installed on your device, download the latest version from the official website.",
+                "obsLinkText": "Open OBS Website",
+                "copyKeys": "Copy Your Keys",
+                "copyKeysDescription": "Copy both the Server URL and Stream Key. Keep them private — anyone with these details can stream on your behalf.",
+                "step2Title": "Step 2 — Configure OBS",
+                "step2Description": "Once your keys are generated, you need to insert them into OBS settings.",
+                "openObs": "Open OBS",
+                "openObsDescription": "Start the OBS Studio application on your computer.",
+                "openStreamSettings": "Open Stream Settings",
+                "openStreamSettingsDescription": "Go to Settings → Stream to access the connection fields.",
+                "enterDetails": "Enter Your Streaming Details",
+                "enterDetailsDescription": "Paste the Server URL into the “Server” field and the Stream Key into the “Stream Key” field.",
+                "saveSettings": "Save Settings",
+                "saveSettingsDescription": "Click “Apply” and then “OK” to save your configuration.",
+                "step3Title": "Step 3 — Start Streaming",
+                "step3Description": "Everything is set up. You’re now ready to go live.",
+                "startStream": "Start Streaming",
+                "startStreamDescription": "Press “Start Streaming” in OBS to begin broadcasting to your channel.",
+                "monitorStream": "Monitor the Stream",
+                "monitorStreamDescription": "Return to your dashboard to ensure the stream is active and running smoothly.",
+                "congrats": "OBS has been successfully connected to your channel!",
+                "close": "Close"
+            },
+            "createModal": {
+                "trigger": "Generate Stream Key",
+                "heading": "Create a New Stream Key",
+                "ingressTypeLabel": "Ingress Type",
+                "ingressTypePlaceholder": "Select ingress type",
+                "ingressTypeDescription": "Choose the connection type you want to use. The default RTMP option is recommended for most users.",
+                "submitButton": "Generate",
+                "successMessage": "Stream key generated successfully!",
+                "CREATE_INGRESS_ERROR": "An error occurred while generating your stream key. Please try again."
+            }
+        },
+        "chat": {
+            "header": {
+                "heading": "Chat Settings",
+                "description": "Manage viewer chat permissions and behavior."
+            },
+            "isChatEnabled": {
+                "heading": "Enable Chat",
+                "description": "Allow viewers to send messages in your chat."
+            },
+            "isChatFollowersOnly": {
+                "heading": "Followers-Only Chat",
+                "description": "Only users who follow you can send messages in the chat."
+            },
+            "isChatPremiumFollowersOnly": {
+                "heading": "Premium Followers Chat",
+                "description": "Only premium supporters can participate in the chat."
+            },
+            "successMessage": "Chat settings updated successfully!",
+            "errorMessage": "Failed to update chat settings. Please try again."
+        },
+        "followers": {
+            "header": {
+                "heading": "Followers",
+                "description": "List of users who follow you"
+            },
+            "columns": {
+                "date": "Date",
+                "user": "User",
+                "actions": "Actions",
+                "viewChannel": "View Channel"
+            }
+        },
+        "sponsors": {
+            "header": {
+                "heading": "Sponsors",
+                "description": "List of users who support your channel"
+            },
+            "columns": {
+                "date": "Date",
+                "user": "User",
+                "plan": "Plan",
+                "actions": "Actions",
+                "viewChannel": "View Channel"
+            }
+        },
+        "plans": {
+            "header": {
+                "heading": "Subscription Plans",
+                "description": "Manage and customize your channel's subscription plans."
+            },
+            "alert": {
+                "heading": "Premium Badge Requirement",
+                "description": "To create a premium plan for your channel, it must be verified. Verification requires at least 10 subscribers — once reached, you will receive the premium badge and unlock access to this feature."
+            },
+            "createForm": {
+                "trigger": "Create Plan",
+                "heading": "Create New Subscription Plan",
+                "titleLabel": "Title",
+                "titlePlaceholder": "Enter plan title",
+                "titleDescription": "This title will be visible to all subscribers.",
+                "descriptionLabel": "Description",
+                "descriptionPlaceholder": "Enter plan description",
+                "descriptionDescription": "Describe what subscribers will receive in this plan.",
+                "priceLabel": "Price",
+                "pricePlaceholder": "Insert price",
+                "priceDescription": "Set the monthly subscription price.",
+                "submitButton": "Create Plan",
+                "successMessage": "Plan created successfully.",
+                "CREATE_PLAN_ERROR": "An error occurred while creating the plan."
+            },
+            "columns": {
+                "date": "Created At",
+                "title": "Title",
+                "price": "Price",
+                "actions": "Actions",
+                "remove": "Remove",
+                "successMessage": "Plan removed successfully.",
+                "REMOVE_PLAN_ERROR": "Error deleting the plan."
+            }
+        },
+        "transactions": {
+            "header": {
+                "heading": "Transactions",
+                "description": "View the list of your recent transactions."
+            },
+            "columns": {
+                "date": "Date",
+                "status": "Status",
+                "success": "Success",
+                "pending": "Pending",
+                "failed": "Failed",
+                "expired": "Expired",
+                "amount": "Amount"
+            }
+        }
+    },
+    "components": {
+        "liveBadge": {
+            "text": "Live"
+        },
+        "confirmModal": {
+            "cancel": "Cancel",
+            "continue": "Continue"
+        },
+        "copyButton": {
+            "successMessage": "Copied"
+        },
+        "dataTable": {
+            "notFound": "No followers found"
+        },
+        "emptyState": {
+            "heading": "Nothing here yet",
+            "text": "There’s no content to display at the moment."
+        }
+    },
+    "utils": {
+        "formatDate": {
+            "months": {
+                "january": "January",
+                "february": "February",
+                "march": "March",
+                "april": "April",
+                "may": "May",
+                "june": "June",
+                "july": "July",
+                "august": "August",
+                "september": "September",
+                "octomber": "October",
+                "november": "November",
+                "december": "December"
+            }
+        }
+    },
+    "seo": {
+        "description": "TwitchTest is a modern live streaming platform where creators can broadcast content in real time, interact with their community, and build a unique channel. Discover new streamers, watch live entertainment, join the chat, and enjoy a fast, secure experience optimized for all devices."
+    }
+}

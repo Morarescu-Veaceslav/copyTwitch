@@ -1,0 +1,3 @@
+mutation RemoveSponsorshipPlan($data: String!){
+    removeSponsorshipPlan(data: $data)
+}
