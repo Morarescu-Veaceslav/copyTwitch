@@ -1,0 +1,33 @@
+import { Field, ID, ObjectType } from "@nestjs/graphql";
+import { ChatMessage, User } from "@prisma/generated";
+import { UserModel } from "src/modules/auth/account/models/user.model";
+import { StreamModel } from "src/modules/stream/models/stream.module";
+
+
+
+@ObjectType()
+export class ChatMessageModel implements ChatMessage {
+    @Field(() => ID)
+    public id: string
+
+    @Field(() => String)
+    public text: string
+
+    @Field(() => UserModel)
+    public user: UserModel
+
+    @Field(() => String)
+    public userId: string;
+
+    @Field(() => StreamModel)
+    public stream: StreamModel
+
+    @Field(() => String)
+    public streamId: string;
+
+    @Field(() => Date)
+    public updatedAt: Date;
+
+    @Field(() => Date)
+    public createdAt: Date;
+}
